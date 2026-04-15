@@ -1,5 +1,31 @@
 // Write your code here
 
+  let   products=['laptop','phone' ,'headphones','monitor']
+    
+  // login a product
+    function logFirstProduct(){
+        return products[3]
+    }
+     // added product
+      function  addProduct(){ 
+        return products.unshift='smartphones'
+      }
+ 
+      //updating product
+ const  updateProductName=()=>{
+
+    return products[1]='gaminglaptop'
+ }
+
+ // removing product
+      const removeLastProduct=()=>{ 
+        return products.pop();
+      } 
+
+            
+
+        
+
 
 
 // Export the necessary parts for testing
